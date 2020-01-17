@@ -132,7 +132,7 @@
 
 }
 
-/* default mobile Projects*/
+/* default mobile/tablet Projects*/
 .projects-container{
   display: flex;
   flex-direction: row;
@@ -154,21 +154,20 @@
   /* box-sizing: border-box; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 
 /* Projects Desktop */
-@media only screen and (min-width: 795px) {
+@media only screen and (min-width: 1025px) {
 
 .projects-container{
 
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 0px;
-
-
+  flex-wrap: nowrap;
 }
-
-
 
 }

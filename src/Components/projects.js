@@ -15,7 +15,7 @@ class Projects extends Component {
       {projects.map( project => (
       <div className ='single-card'>
         <CardTitle style={{color: "#fff", height: '176px', boxSizing: 'content-box', background: `url(${project.imageUrl})`}}></CardTitle>
-      <CardText>{project.description}<br/>{project.technologies}</CardText>
+  <CardText><center>{project.name} </center><br/>{project.description}<br/>{project.technologies}</CardText>
         <CardActions>
           <Button colored> GitHub</Button>
           <Button colored> Website</Button>
