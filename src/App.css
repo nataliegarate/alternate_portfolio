@@ -132,5 +132,43 @@
 
 }
 
-/* Projects Desktop */
+/* default mobile Projects*/
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width:100%;
+  margin-top: 30px;
+}
 
+.single-card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 330px;
+  background: rgb(255,255,255);
+  border-radius: 2px;
+  /* box-sizing: border-box; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+}
+
+
+/* Projects Desktop */
+@media only screen and (min-width: 795px) {
+
+.projects-container{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+
+
+}
+
+
+
+}
