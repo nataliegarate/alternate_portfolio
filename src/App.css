@@ -60,7 +60,7 @@
 .banner-text p {
   color: white;
   font-size: 15px;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .social-links {
@@ -74,8 +74,6 @@
   font-size: 2em;
   padding: 4px;
 }
-
-
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
@@ -91,8 +89,7 @@
   }
   .banner-text p {
     font-size: 18px;
-    padding: .5em;
-
+    padding: 0.5em;
   }
   .social-links i {
     color: white;
@@ -104,52 +101,51 @@
 /* Desktop Screen Landing Page*/
 
 @media only screen and (min-width: 768px) {
+  .avatar-img {
+    height: 250px;
+  }
 
-.avatar-img {
-  height: 250px;
-}
+  .banner-text h1 {
+    font-size: 62px;
+  }
 
-.banner-text h1 {
-  font-size: 62px;
-}
+  .banner-text hr {
+    border-top: 5px dotted white;
+  }
 
-.banner-text hr {
-  border-top: 5px dotted white;
-}
+  .banner-text p {
+    font-size: 20px;
+    padding: 1em;
+  }
 
-.banner-text p {
-  font-size: 20px;
-  padding: 1em;
-
-}
-
-
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
-
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
 }
 
 /* default mobile/tablet Projects*/
-.projects-container{
+.projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width:100%;
-  margin-top: 30px;
+  align-items: top;
+  height: 90%;
+  width: 100%;
+  padding-top: 30px;
 }
-
+.projects-container a {
+  text-decoration: none;
+  color: darkblue;
+}
 .single-card {
   display: flex;
   flex-direction: column;
   height: 400px;
   width: 330px;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   border-radius: 2px;
   /* box-sizing: border-box; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -158,31 +154,25 @@
   margin-right: 15px;
 }
 
-
 /* Projects Desktop */
 @media only screen and (min-width: 1025px) {
-
-.projects-container{
-
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 0px;
-  flex-wrap: nowrap;
-}
-
+  .projects-container {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-wrap: nowrap;
+  }
 }
 
 /* Contact Page */
-.contact-body{
+.contact-body {
   margin: auto;
   background: grey;
   position: fixed;
-  width:100%;
-  justify-content: center;
+  width: 100%;
   padding-top: 2em;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
