@@ -163,13 +163,27 @@
   }
 }
 
-/* Contact Page */
+/* Contact Page  DESKTOP*/
 .contact-body {
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
+  height: 100%;
+  justify-content: center;
   padding-top: 2em;
+  overflow: scroll;
+}
+
+.contact-body img {
+  height: 240px;
+  padding-top: 0px;
+}
+.contact-body p {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
 }
 
 .contact-grid {
@@ -179,9 +193,31 @@
   height: 550px;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-text {
+  font-size: 30px;
+  font-family: "Anton";
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
 /* font-family: 'Anton', sans-serif;
 font-family: 'Oxygen', sans-serif; */
