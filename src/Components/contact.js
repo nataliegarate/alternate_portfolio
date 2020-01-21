@@ -27,6 +27,7 @@ class Contact extends Component {
             <hr />
             <div>
               <List className="contact-list">
+                <center>
                 <ListItem>
                   <ListItemContent className="contact-text">
                     <i className="fa fa-envelope" aria-hidden="true" />
@@ -48,6 +49,7 @@ class Contact extends Component {
                     </span>
                   </ListItemContent>
                 </ListItem>
+                </center>
               </List>
             </div>
           </Cell>

@@ -1,3 +1,6 @@
+.page-content{
+  overflow: scroll;
+}
 .header-color {
   background: #00467f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -35,6 +38,7 @@
 }
 
 /* Mobile Screen Landing Page*/
+
 .avatar-img {
   height: 125px;
   padding-top: 50px;
@@ -126,6 +130,19 @@
 }
 
 /* default mobile/tablet Projects*/
+
+.projects-page {
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 20px;
+}
+.projects-page h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 150%;
+  margin: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
 .projects-container {
   display: flex;
   flex-direction: row;
@@ -134,7 +151,6 @@
   align-items: top;
   height: 90%;
   width: 100%;
-  padding-top: 30px;
 }
 .projects-container a {
   text-decoration: none;
@@ -143,11 +159,10 @@
 .single-card {
   display: flex;
   flex-direction: column;
-  height: 400px;
-  width: 330px;
+  height: 410px;
+  width: 275px;
   background: rgb(255, 255, 255);
   border-radius: 2px;
-  /* box-sizing: border-box; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 20px;
   margin-left: 15px;
@@ -155,12 +170,32 @@
 }
 
 /* Projects Desktop */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 900px) {
   .projects-container {
+    display: flex;
+    flex-direction: row;
     margin-left: 5px;
     margin-right: 5px;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
   }
+  .projects-page h2 {
+    font-size: 250%;
+    margin: 10px;
+    padding-top: 0px;
+  }
+ .projects-page{
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+.single-card{
+  flex-basis: .5;
+  width: 275px;
+}
+
 }
 
 /*Default Mobile Contact*/
@@ -262,7 +297,7 @@
   .contact-grid {
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     height: 550px;
     background: white;
     color: black;
@@ -272,8 +307,13 @@
   .contact-grid hr {
     border-top: 5px dotted black;
   }
+
+  .contact-grid h2 {
+    font-size: 250%;
+  }
+
   .contact-text {
-    font-size: 130%;
+    font-size: 150%;
   }
 
   .contact-list i {

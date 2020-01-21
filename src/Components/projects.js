@@ -52,6 +52,8 @@ class Projects extends Component {
   }
   render() {
     return (
+      <div className='projects-page'>
+      <center><h2>My Projects</h2></center>
       <div className="projects-container">
         {projects.map(project => (
           <div className="single-card">
@@ -84,6 +86,7 @@ class Projects extends Component {
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </div>
         ))}
+      </div>
       </div>
     );
   }
