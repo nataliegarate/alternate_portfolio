@@ -25,18 +25,27 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <div className="contact-list">
-              <List>
+            <div>
+              <List className="contact-list">
                 <ListItem>
                   <ListItemContent className="contact-text">
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    natalieegarate@hotmail.com
+                    <span className="contact-detail">
+                      natalieegarate@hotmail.com
+                    </span>
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
                   <ListItemContent className="contact-text">
-                    <i className="fa fa-linkedin" aria-hidden="true" />
-                    linkedin.com/in/natalie-garate
+                    <i
+                      className="fa fa-linkedin"
+                      aria-hidden="true"
+                      rel="noopener noreferrer"
+                    />
+                    <span className="contact-detail">
+                      linkedin.com/in/natalie-garate
+                    </span>
                   </ListItemContent>
                 </ListItem>
               </List>
