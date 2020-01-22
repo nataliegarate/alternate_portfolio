@@ -321,7 +321,7 @@
   }
 }
 
-/* Resume Page Desktop */
+/* Resume page default/ mobile*/
 
 .resume-container {
   margin-top: 10px;
@@ -329,10 +329,39 @@
   height: 100%;
   text-align: center;
   overflow: scroll;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .resume-container img {
-  height: 650px;
-  width: auto;
+  margin-top: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.resume-container a {
+  color: darkblue;
+  text-decoration: none;
+}
+.resume-container a:hover {
+  background-color: lightgray;
+}
+
+/* Resume Page Tablets */
+@media only screen and (min-width: 600px) {
+  .resume-container img {
+    margin-top: 30px;
+    height: 650px;
+  }
+}
+/* Resume Page Desktop */
+
+@media only screen and (min-width: 1025px) {
+  .resume-container img {
+    margin-top: 0px;
+    height: 800px;
+  }
 }
