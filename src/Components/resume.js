@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
-class Resume extends Component {
-  render() {
-    return <h1>Resume</h1>;
-  }
+function Resume() {
+  return (
+    <div className="resume-container">
+      <img src="./resume.jpg" />
+    </div>
+  );
 }
 
 export default Resume;
