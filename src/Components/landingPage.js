@@ -30,6 +30,17 @@ class LandingPage extends Component {
                     aria-hidden="true"
                   />{" "}
                 </a>
+                <a
+                  href="mailto:natalieegarate@hotmail.com?Subject=Hello%20again"
+                  target="_blank"
+                >
+                  {" "}
+                  <i
+                    className="fa fa-envelope"
+                    rel="noopener noreferrer"
+                    aria-hidden="true"
+                  />{" "}
+                </a>
                 <a href="https://github.com/nataliegarate" target="_blank">
                   {" "}
                   <i
@@ -38,6 +49,9 @@ class LandingPage extends Component {
                     aria-hidden="true"
                   />{" "}
                 </a>
+
+               
+
               </div>
             </div>
           </Cell>
