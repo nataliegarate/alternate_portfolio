@@ -69,15 +69,18 @@
 
 .social-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
 .social-links i {
   color: white;
   font-size: 2em;
-  padding: 4px;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
@@ -99,6 +102,8 @@
     color: white;
     font-size: 3em;
     padding: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 }
 
@@ -125,7 +130,9 @@
   .social-links i {
     color: white;
     font-size: 5em;
-    padding: 8px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
