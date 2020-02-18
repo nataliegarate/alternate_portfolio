@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a portfolio website that displays my skills and projetcs. Although I already have a main portfolio website, I had fun creating an alternate one with different styling.
+This is a portfolio website that displays my skills and projetcs. Although I already have a main portfolio website, I had fun creating an alternate one with different styling and different component structure.
 
 ## Available Scripts
 
